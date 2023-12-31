@@ -2,7 +2,8 @@
 
 A simple JavaScript function to handle key events and display the pressed key and its key code dynamically in the HTML.
 
-![Project Demo](./src/img/preview.gif)
+![Project Demo](./src/img/preview.gif){: style="max-width:100%;" }
+
 
 ## Table of Contents
 
@@ -81,7 +82,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 
-For any inquiries or support related to this project, please contact Karl Horning.
+For any inquiries or support related to this project, please contact Karl Horning using any of the links in the 'Author' section.
 
 ## Author
 
