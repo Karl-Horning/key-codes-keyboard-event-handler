@@ -1,4 +1,10 @@
-@import url("https://fonts.bunny.net/css?family=alfa-slab-one:400&display=swap");
+@font-face {
+    font-family: "Alfa Slab One";
+    src: local("Alfa Slab One"),
+        url("../fonts/alfa-slab-one-latin-400-normal.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
 
 * {
     box-sizing: border-box;
@@ -33,7 +39,6 @@ body {
     font-family: "Alfa Slab One", sans-serif;
     font-size: 8em;
     letter-spacing: 2px;
-    -webkit-text-stroke: 2px 2px #0d1214;
     text-shadow: -2px -2px 0 #0d1214, 2px -2px 0 #0d1214, -2px 2px 0 #0d1214,
         2px 2px 0 #0d1214;
     text-transform: uppercase;
