@@ -37,7 +37,7 @@ body {
 .keycode {
     color: #fff;
     font-family: "Alfa Slab One", sans-serif;
-    font-size: 8em;
+    font-size: 8rem;
     letter-spacing: 2px;
     text-shadow: -2px -2px 0 #0d1214, 2px -2px 0 #0d1214, -2px 2px 0 #0d1214,
         2px 2px 0 #0d1214;
@@ -61,12 +61,12 @@ body {
 /* Media Queries */
 @media screen and (max-width: 768px) {
     .keycode {
-        font-size: 4em;
+        font-size: 4rem;
     }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1200px) {
     .keycode {
-        font-size: 6em;
+        font-size: 6rem;
     }
 }
