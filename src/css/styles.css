@@ -1,0 +1,64 @@
+@import url(https://fonts.bunny.net/css?family=alfa-slab-one:400);
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    min-width: 950px;
+}
+
+body {
+    animation: scrollBackground 10s ease-in-out infinite;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    color: #fff;
+    height: 100vh;
+    position: relative;
+    width: 100%;
+}
+
+.container {
+    height: 100%;
+    text-align: center;
+}
+
+.container > .keycode {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+}
+
+.keycode {
+    color: #fff;
+    font-family: "Alfa Slab One", sans-serif;
+    font-size: 8em;
+    left: 50%;
+    letter-spacing: 2px;
+    position: absolute;
+    -webkit-text-stroke: 2px 2px #0d1214;
+    text-shadow: -2px -2px 0 #0d1214, 2px -2px 0 #0d1214, -2px 2px 0 #0d1214,
+        2px 2px 0 #0d1214;
+    text-transform: uppercase;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@keyframes scrollBackground {
+    0% {
+        background-position: 0 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0 50%;
+    }
+}
