@@ -2,8 +2,7 @@
 
 A simple JavaScript function to handle key events and display the pressed key and its key code dynamically in the HTML.
 
-![Project Demo](./src/img/preview.gif){: style="max-width:100%;" }
-
+<img src="./src/img/preview.gif" alt="Project Demo" style="max-width:100%;">
 
 ## Table of Contents
 
